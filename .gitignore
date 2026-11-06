@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Uploads (ignore uploaded content, preserve directories via .gitkeep)
+uploads/**
+!uploads/
+!uploads/**/
+!uploads/**/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
